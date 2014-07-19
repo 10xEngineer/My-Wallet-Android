@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF"
+    >
+
+    <LinearLayout
+	    android:layout_width="fill_parent"
+    	android:layout_height="80dp"
+    	android:orientation="horizontal"
+    	android:padding="10dp"
+    	android:background="#FFd5d5d5"
+    >
+    <!-- balance layout  -->
+    <LinearLayout
+        android:id="@+id/balance"
+    	android:layout_width="match_parent"
+    	android:layout_height="70dp"
+    	android:orientation="horizontal"
+    	android:background="#FFFFFFFF"
+        android:layout_gravity="center_vertical"
+        android:padding="0dp"
+    >
+    <TextView 
+        android:id="@+id/currency_symbol"
+    	android:layout_width="0dp"
+    	android:layout_height="match_parent"
+        android:layout_weight="1"
+    	android:textSize="28sp"
+    	android:textColor="#FF2f2f2f"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="gravity"
+        android:background="#FFefefef"
+    />
+    <TextView 
+        android:id="@+id/amount1"
+    	android:layout_width="0dp"
+    	android:layout_height="match_parent"
+        android:layout_weight="3"
+    	android:textSize="28sp"
+    	android:textStyle="bold"
+    	android:textColor="#FF2f2f2f"
+        android:gravity="left|center_vertical"
+        android:layout_gravity="left|center_vertical"
+        android:textAlignment="gravity"
+        android:layout_marginLeft="2dp"
+        android:padding="4dp"
+        android:background="#FFffffff"
+		android:singleLine="true"
+    />
+    <TextView 
+        android:id="@+id/amount2"
+    	android:layout_width="0dp"
+    	android:layout_height="match_parent"
+        android:layout_weight="3"
+    	android:textSize="16sp"
+        android:gravity="right|center_vertical"
+        android:layout_gravity="right|center_vertical"
+        android:textAlignment="gravity"
+    	android:textColor="#FF2f2f2f"
+        android:padding="4dp"
+        android:background="#FFffffff"
+		android:singleLine="true"
+    />
+    </LinearLayout>
+
+    </LinearLayout>
+    
+    <!-- divider -->    
+    <LinearLayout 
+        android:id="@+id/divider"
+	    android:layout_width="fill_parent"
+	    android:layout_height="10dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFbcbcbc"
+	/>
+    
+    <!-- layout used to hide the progressbar panel  -->
+    <LinearLayout
+        android:id="@+id/balance_ext_hidden"
+    	android:layout_width="match_parent"
+    	android:layout_height="100dp"
+    	android:orientation="horizontal"
+    	>
+
+    <LinearLayout
+        android:id="@+id/balance_ext"
+    	android:layout_width="match_parent"
+    	android:layout_height="100dp"
+    	android:orientation="vertical"
+    	android:background="#FFd5d5d5"
+    	>
+
+	<include android:id="@+id/progression_sent" layout="@layout/progression" />
+        
+	<include android:id="@+id/progression_received" layout="@layout/progression" />
+
+	<!-- divider -->    
+    <LinearLayout
+        android:layout_marginTop="10dp"
+	    android:layout_width="fill_parent"
+	    android:layout_height="10dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFbcbcbc"
+	    android:gravity="bottom"
+	    android:layout_alignParentBottom="true"
+	/>
+	
+	</LinearLayout>
+
+    </LinearLayout>
+    
+    <!-- transaction list -->
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="horizontal"
+    	android:padding="0dp"
+    >
+
+        <ListView
+    		android:id="@+id/txList"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:divider="@drawable/list_divider"
+			/> 
+    
+    </LinearLayout>
+
+</LinearLayout>

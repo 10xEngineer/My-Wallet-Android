@@ -1,0 +1,30 @@
+The blockchain android app allows you to access your bitcoin wallet directly from your android device. 
+
+You can find more about Bitcoin at
+https://blockchain.info/wallet/
+
+Bitcoin is a decentralization digital currency which allows you to make world-wide transactions for free. 
+
+FEATURES:
+
+* Wallet Encryption
+* Automatic Wallet backups
+* No blockchain downlaod
+* Auto magic synchronization with blockchain.info
+* Watch only wallet
+
+* Bitcoin URI support
+• Display of wallet balance in Bitcoin and various other currencies
+• Sending and receiving of Bitcoin via NFC, QR-codes or Bitcoin URLs
+• Support for millibitcent and smaller values (0.0001)
+• Address book for regularly used Bitcoin addresses
+• Enter transactions while offline, will be executed when online
+• System notifications for Bitcoin connectivity and received coins
+• App widget for Bitcoin balance (requirement: app moved to phone)
+
+This application is based on "Bitcoin Wallet for Android" by , the project is located at. All credit to the original authors.
+https://code.google.com/p/bitcoin-wallet/
+
+https://github.com/blockchain/My-Wallet
+
+License: GPLv3

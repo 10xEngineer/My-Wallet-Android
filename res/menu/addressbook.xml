@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_address"
+        android:showAsAction="never"
+        android:title="@string/new_address"/>
+    <item
+        android:id="@+id/scan_watch_only"
+        android:showAsAction="never"
+        android:title="@string/scan_watch_only"/>
+    <item
+        android:id="@+id/scan_contacts_address"
+        android:showAsAction="never"
+        android:title="@string/scan_contacts_address"/>
+    <item
+        android:id="@+id/scan_private_key"
+        android:showAsAction="never"
+        android:title="@string/scan_private_key"/>
+    
+ 
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyLight" parent="@android:style/Theme.Light.NoTitleBar" />
+
+    <style name="Theme.HoloLight" parent="@android:style/Theme.Holo.NoActionBar" />
+
+    <style name="Theme.Dialog" parent="@android:style/Theme.Holo.Dialog">  
+        <item name="android:buttonStyle">@android:style/Theme.Holo.Dialog</item>
+    </style>
+
+    <style name="Theme.MyPIN" parent="@android:style/Theme.Holo" />
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/widget_frame"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/white"
+	android:orientation="horizontal" >
+
+	<ImageView
+		android:id="@+id/logo_button"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:layout_gravity="center"
+		android:contentDescription="@string/app_icon"
+		android:layout_marginLeft="12dp"
+		android:src="@drawable/logo" />
+    		
+	<LinearLayout
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_gravity="center"
+		android:layout_weight="3"
+		android:focusable="true"
+		android:layout_marginLeft="12dp"
+		android:layout_marginRight="4dp"
+		android:gravity="left|center_vertical"
+		android:orientation="vertical" >
+	
+		<TextView
+			android:id="@+id/widget_wallet_balance"
+			android:layout_width="match_parent"
+			android:layout_height="60dp"
+			android:layout_marginLeft="12dp"
+			android:ellipsize="none"
+			android:fadingEdge="horizontal"
+			android:fadingEdgeLength="12dp"
+			android:singleLine="true"
+			android:layout_marginBottom="-20dp"
+			android:textColor="@color/blockchain_grey"
+			android:textSize="40sp" />
+			    		    
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="108dp"
+			android:singleLine="true"
+			android:textColor="@color/blockchain_light_grey"
+			android:textSize="12sp"
+			android:text="@string/BTC"				
+			android:gravity="right"
+			/>		
+		
+	</LinearLayout>
+
+	<ImageButton
+		android:id="@+id/refresh_button"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:background="@color/white"
+		android:layout_weight="1"
+		android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:scaleType="fitCenter"		
+		android:contentDescription="@string/refresh_button"
+		android:src="@drawable/refresh" />
+
+	<ImageButton
+		android:id="@+id/merchant_directory_button"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="@color/white"		
+		android:contentDescription="@string/merchant_directory_button"
+		android:src="@drawable/merchants" />
+
+	<ImageButton
+		android:id="@+id/scan_button"
+		android:layout_width="0px"
+		android:layout_height="match_parent"
+		android:background="@color/white"
+		android:layout_weight="1"
+		android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:adjustViewBounds="true"
+        android:padding="8dp"
+        android:scaleType="fitCenter"				
+		android:contentDescription="@string/scan_button"
+		android:src="@drawable/camera" />
+
+</LinearLayout>

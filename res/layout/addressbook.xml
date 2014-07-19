@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+	>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal" 
+	android:background="#FFa0a0a0"
+	>
+
+    
+    <LinearLayout 
+    android:id="@+id/contacts_bg"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="90dp"
+    android:orientation="vertical" 
+	android:background="#FFa0a0a0"
+    android:gravity="center_vertical|center_horizontal" 
+	>
+    <ImageView
+        android:id="@+id/contacts"
+        android:src="@drawable/address_book"
+        android:scaleType="centerInside"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+    />
+    <TextView 
+        android:id="@+id/contacts_label"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:text="Contacts"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFFFF"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+    />
+    </LinearLayout>
+    
+
+    	
+	<LinearLayout 
+    android:id="@+id/active_bg"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="90dp"
+    android:orientation="vertical" 
+	android:background="#FFa0a0a0"
+    android:gravity="center_vertical|center_horizontal" 
+	>
+    <ImageView
+        android:id="@+id/active"
+        android:src="@drawable/my_addresses"
+        android:scaleType="centerInside"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+    />
+    <TextView 
+        android:id="@+id/active_label"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:text="Active"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFFFF"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+    />
+    </LinearLayout>
+
+
+	
+	<LinearLayout 
+    android:id="@+id/archived_bg"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="90dp"
+    android:orientation="vertical" 
+	android:background="#FFa0a0a0"
+    android:gravity="center_vertical|center_horizontal" 
+	>
+    <ImageView
+        android:id="@+id/archived"
+        android:src="@drawable/archive_icon"
+        android:scaleType="centerInside"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+	/>
+    <TextView 
+        android:id="@+id/archived_label"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+    	android:text="Archived"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFFFF"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+    />
+    </LinearLayout>
+
+		
+</LinearLayout>
+
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal" 
+    android:gravity="bottom"
+    android:layout_alignParentBottom="true"
+	>
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+    
+    </LinearLayout>
+
+</LinearLayout>

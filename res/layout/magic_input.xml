@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/magic_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	>
+
+	<!-- first row -->    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="61dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFffffff"
+	>
+    
+    <LinearLayout 
+	    android:layout_width="61dp"
+	    android:layout_height="61dp"
+	    android:orientation="horizontal"
+	    android:background="#FFffffff"
+        android:gravity="center_horizontal|center_vertical"
+	>
+	    <ImageView
+    	android:id="@+id/direction"
+        android:src="@drawable/green_arrow"
+        android:scaleType="fitXY"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+    	/>
+    </LinearLayout>
+
+	<!-- divider -->    
+    <LinearLayout 
+        android:id="@+id/divider1"
+	    android:layout_width="5dp"
+    	android:layout_height="61dp"
+	    android:orientation="vertical" 
+	    android:background="#FF000000"
+		/>
+
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="61dp"
+	    android:orientation="horizontal" 
+		android:background="#FFffffff"
+	>
+    
+    <EditText 
+        android:id="@+id/address"
+    	android:layout_width="0dp"
+    	android:layout_height="61dp"
+    	android:layout_weight="1"
+    	android:textSize="22sp"
+    	android:textColor="#FF000000"
+	    android:padding="5dp"
+		android:textCursorDrawable="@null"
+		android:singleLine="true"
+		android:background="#00000000"
+		android:imeOptions="actionNext"
+	    />
+
+    <ImageView
+    	android:id="@+id/input_toggle"
+        android:src="@drawable/clear_icon"
+        android:scaleType="fitXY"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="10dp"
+    	/>
+
+	</LinearLayout>
+	
+	</LinearLayout>
+
+    
+    <!-- second row -->    
+    <LinearLayout 
+        android:id="@+id/icon_row"
+	    android:layout_width="match_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFffffff"
+	>
+    
+    <LinearLayout 
+	    android:layout_width="61dp"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal"
+	    android:background="#FFffffff"
+        android:gravity="center_horizontal|center_vertical"
+	>
+
+    </LinearLayout>
+
+	<!-- divider -->    
+    <LinearLayout 
+        android:id="@+id/divider3"
+	    android:layout_width="5dp"
+    	android:layout_height="30dp"
+	    android:orientation="vertical" 
+	    android:background="#FF000000"
+		/>
+
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal" 
+		android:background="#FFffffff"
+	>
+
+	    <LinearLayout 
+    	android:id="@+id/magic2_contact"
+	    android:layout_width="60dp"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal" 
+		android:background="#FFffffff"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+		>
+        <ImageView
+        android:src="@drawable/magic_contacts_icon"
+        android:scaleType="fitXY"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+    	/>
+        </LinearLayout>
+
+	    <LinearLayout 
+    	android:id="@+id/magic2_camera"
+	    android:layout_width="60dp"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal" 
+		android:background="#FFffffff"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+		>
+	    <ImageView
+    	android:src="@drawable/magic_camera_icon"
+        android:scaleType="fitXY"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+    	/>
+	    </LinearLayout>
+        
+	    <LinearLayout 
+    	android:id="@+id/magic2_keyboard"
+	    android:layout_width="60dp"
+	    android:layout_height="30dp"
+	    android:orientation="horizontal" 
+		android:background="#FFffffff"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+		>
+	    <ImageView
+        android:src="@drawable/magic_keyboard_icon"
+        android:scaleType="fitXY"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+    	/>
+	    </LinearLayout>
+        
+        
+	</LinearLayout>
+	
+	</LinearLayout>
+
+    
+    <!-- horizontal divider -->    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFffffff"
+	>
+    
+    <LinearLayout 
+	    android:layout_width="61dp"
+	    android:layout_height="1dp"
+	    android:orientation="horizontal"
+	    android:background="#FFffffff"
+	/>
+
+	<!-- divider -->    
+    <LinearLayout 
+        android:id="@+id/divider4"
+	    android:layout_width="5dp"
+    	android:layout_height="1dp"
+	    android:orientation="vertical" 
+	    android:background="#FF000000"
+		/>
+
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:orientation="horizontal" 
+		android:background="#FFd2d2d2"
+	/>
+	
+	</LinearLayout>
+    
+
+	<!-- third row -->    
+    <LinearLayout 
+        android:id="@+id/magic_bis"
+	    android:layout_width="match_parent"
+	    android:layout_height="61dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFffffff"
+	>
+
+	<LinearLayout 
+	    android:layout_width="61dp"
+	    android:layout_height="61dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFffffff"
+	>
+    <TextView 
+        android:id="@+id/currency"
+    	android:layout_width="61dp"
+    	android:layout_height="61dp"
+    	android:textSize="26sp"
+    	android:textColor="#FF000000"
+        android:gravity="center_horizontal|center_vertical"
+	    android:padding="5dp"
+    />
+    </LinearLayout>
+
+	<!-- divider -->    
+    <LinearLayout 
+        android:id="@+id/divider2"
+	    android:layout_width="5dp"
+    	android:layout_height="61dp"
+	    android:orientation="vertical" 
+	    android:background="#FF000000"
+		/>
+
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="61dp"
+	    android:orientation="horizontal" 
+	>
+    
+    <EditText 
+        android:id="@+id/amount1"
+    	android:layout_width="0dp"
+    	android:layout_height="61dp"
+    	android:layout_weight="4"
+    	android:textSize="22sp"
+    	android:textColor="#FF000000"
+	    android:padding="5dp"
+        android:inputType="numberDecimal"
+		android:singleLine="true"
+		android:background="#00000000"
+		android:imeOptions="actionDone"
+		android:textCursorDrawable="@null"
+		android:focusable="true"
+	    android:focusableInTouchMode="true"
+	    >
+	<requestFocus/>
+	</EditText>
+	<TextView 
+        android:id="@+id/amount2"
+    	android:layout_width="0dp"
+    	android:layout_height="61dp"
+        android:layout_weight="3"
+    	android:textSize="14sp"
+        android:gravity="right|center_vertical"
+        android:layout_gravity="right|center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="#FF808080"
+	    android:padding="5dp"
+    	/>
+
+	</LinearLayout>
+	
+	</LinearLayout>
+
+</LinearLayout>

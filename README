@@ -1,0 +1,7 @@
+UI no longer contained in separate Library project.
+
+Android-Wallet-2-App can now be compiled directly in Eclipse or via Ant.
+
+Link to Google Play Services as a Library Project when using Eclipse. See http://developer.android.com/google/play-services/setup.html
+
+Include your own Google developer key based on your debug certificate if you need to test maps.

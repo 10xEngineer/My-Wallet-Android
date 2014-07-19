@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+            	<Preference
+        	        android:title="Blockchain identifier"
+            	    android:summary="Your Blockchain wallet identifier"
+                	android:key="guid"
+                	/>
+                <EditTextPreference
+                        android:title="E-mail address (optional)"
+                        android:summary="E-mail address for backups"
+                        android:key="email" />
+            	<CheckBoxPreference
+                        android:title="E-mail backups"
+                        android:defaultValue="true"
+                        android:summary="Receive wallet backups by e-mail"
+                        android:key="backups" />
+                <EditTextPreference
+                        android:title="Mobile phone number (optional)"
+                        android:summary="Mobile phone number for 2FA and SMS notifications"
+                        android:key="mobile" />
+            	<CheckBoxPreference
+                        android:title="SMS notifications"
+                        android:defaultValue="true"
+                        android:summary="Receive notifications by SMS"
+                        android:key="notifs" />
+		        <Preference
+        	        android:title="Currency"
+            	    android:summary="Your preferred fiat currency"
+                	android:key="fiat"
+                	/>
+		        <Preference
+        	        android:title="Backup wallet"
+            	    android:summary="Backup wallet to media of your choice"
+                	android:key="backup"
+                	/>	
+		        <Preference
+        	        android:title="Change PIN"
+            	    android:summary="Change your PIN"
+                	android:key="pin"
+                	/>		        
+		        <Preference
+        	        android:title="Change Password"
+            	    android:summary="Change your password"
+                	android:key="password"
+                	/>	                		        
+		        <Preference
+        	        android:title="Unpair device"
+            	    android:summary="Unpair this device to import a different wallet"
+                	android:key="unpair"
+                	/>	        
+</PreferenceScreen>

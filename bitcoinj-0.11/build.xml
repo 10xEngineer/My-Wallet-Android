@@ -1,0 +1,36 @@
+<project name="my-wallet-bitcoinj-0.6.1" default="deploy" basedir=".">
+
+<property name="libs" value="guava-13.0.1.jar netty-3.3.1.Final.jar slf4j-api-1.6.2.jar slf4j-jdk14-1.6.2.jar sc-light-jdk15on-1.47.0.2.jar jcip-annotations-1.0.jar protobuf-java-2.4.1.jar"/>
+
+<property name="out" location="../bin/bitcoinj" />
+
+<target name="compile" description="compile custom bitcoinj">
+    <mkdir dir="${out}"/>
+    <delete includeEmptyDirs="true" failonerror="false">
+      <fileset dir="${out}" includes="**/*.class"/>
+    </delete>
+    <javac srcdir="src" destdir="${out}" debug="true"
+        source="1.6" target="1.6" includeantruntime="false">
+        <classpath>
+            <fileset dir="lib" includes="${libs}"/>
+        </classpath>
+    </javac>
+</target>
+
+<target name="build" depends="compile" description="build jar">
+    <jar destfile="${out}/my-wallet-bitcoinj-0.6.1.jar">
+        <fileset dir="${out}" includes="**/*.class"/>
+        <manifest>
+            <attribute name="Class-Path" value="${libs}"/>
+        </manifest>
+    </jar>
+</target>
+
+<target name="deploy" depends="build" description="copy jars to libs">
+    <copy todir="../libs/">
+        <fileset dir="${out}" includes="*.jar"/>
+        <fileset dir="lib" includes="*.jar"/>
+    </copy>
+</target>
+
+</project>

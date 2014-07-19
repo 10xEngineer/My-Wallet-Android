@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout 
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/magic"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFb6b6b6"
+	>
+
+	<LinearLayout 
+	    android:layout_width="61dp"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal" 
+	    android:background="#FFf2f3f2"
+	/>
+
+	<!-- divider -->    
+    <LinearLayout 
+        android:id="@+id/divider1"
+	    android:layout_width="5dp"
+    	android:layout_height="50dp"
+	    android:orientation="vertical" 
+	    android:background="#FF808080"
+	/>
+
+    <LinearLayout 
+        android:id="@+id/magic_bis"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal" 
+	>
+    
+	    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal"
+	    android:layout_gravity="left"
+	    android:gravity="left"
+		>
+		
+
+	    	<LinearLayout 
+        	android:id="@+id/contacts_bg"
+	    	android:layout_width="0dp"
+	    	android:layout_weight="1"
+	    	android:layout_height="50dp"
+	    	android:orientation="horizontal"
+	    	android:layout_gravity="center_horizontal|center_vertical"
+	    	android:gravity="center_horizontal|center_vertical"
+	    	android:background="#FF808080"
+			>
+    			<TextView 
+        		android:id="@+id/contacts"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    			android:textSize="12sp"
+    			android:textColor="#FFffffff"
+        		android:gravity="center_horizontal|center_vertical"
+        		android:text="My Contacts"
+    			/>
+    		</LinearLayout>
+
+	    	<LinearLayout 
+        	android:id="@+id/addresses_bg"
+	    	android:layout_width="0dp"
+	    	android:layout_weight="1"
+	    	android:layout_height="50dp"
+	    	android:orientation="horizontal"
+	    	android:layout_gravity="center_horizontal|center_vertical"
+	    	android:gravity="center_horizontal|center_vertical"
+	    	android:background="#FFe0e0e0"
+			>
+    			<TextView 
+        		android:id="@+id/addresses"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    			android:textSize="12sp"
+    			android:textColor="#FF000000"
+        		android:gravity="center_horizontal|center_vertical"
+        		android:text="My Addresses"
+    			/>
+    		</LinearLayout>
+	    		    	
+	    	<LinearLayout 
+        	android:id="@+id/phone_contacts_bg"
+	    	android:layout_width="0dp"
+	    	android:layout_weight="1"
+	    	android:layout_height="50dp"
+	    	android:orientation="horizontal"
+	    	android:layout_gravity="center_horizontal|center_vertical"
+	    	android:gravity="center_horizontal|center_vertical"
+	    	android:background="#FFe0e0e0"
+			>
+    			<TextView 
+        		android:id="@+id/phone_contacts"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+    			android:textSize="12sp"
+    			android:textColor="#FF000000"
+        		android:gravity="center_horizontal|center_vertical"
+        		android:text="Phone Contacts"
+    			/>
+    		</LinearLayout>
+
+
+	    	
+
+	    </LinearLayout>
+
+	    	    
+	</LinearLayout>
+	
+</LinearLayout>

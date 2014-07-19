@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFf3f3f3"
+    android:id="@+id/SendFragment"
+    >
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:gravity="top"
+    android:background="@drawable/container_dropshadow"
+	>
+    
+<include android:layout_width="fill_parent" layout="@layout/magic_input" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/qr_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="0dp"
+	>
+
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+	>
+
+    <ImageView
+        	android:id="@+id/qr"
+        	android:layout_width="280dp"
+        	android:layout_height="280dp"
+        	android:layout_gravity="center_vertical|center_horizontal"
+        	android:gravity="center_vertical|center_horizontal"
+        	android:layout_marginBottom="5dp"
+    	/>
+
+            <TextView 
+        android:id="@+id/receiving_address"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="18sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="#FF808080"
+    	/>
+
+        <TextView 
+        android:id="@+id/receiving_address_bis"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:textSize="12sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="gravity"
+        android:textColor="#FFa0a0a0"
+        />
+    
+    </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

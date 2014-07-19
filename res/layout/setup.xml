@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="#FF039BD3"
+    >
+
+<ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/net_bg"
+        android:background="@null"
+        android:scaleType="fitXY"
+        />
+    
+        <ImageView
+    	android:layout_width="219dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo2x"
+        android:gravity="center_horizontal"
+	    android:layout_gravity="center_horizontal"
+    	android:layout_marginTop="80dp"
+        android:layout_centerInParent="true"
+	    android:layout_alignParentTop="true"
+    	/>
+        
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical" 
+    android:gravity="bottom"
+    android:layout_alignParentBottom="true"
+    android:layout_marginTop="20dp"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+	>
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Open A New Wallet"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:layout_marginBottom="3dp"
+        android:background="#FFffffff"
+    />
+
+    <Button
+        android:id="@+id/pair"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Connect Existing Wallet" 
+        android:textSize="30sp"
+        android:layout_weight="1"
+        android:layout_marginTop="3dp"
+        android:background="#FFffffff"
+    />
+
+</LinearLayout>
+    
+</RelativeLayout>

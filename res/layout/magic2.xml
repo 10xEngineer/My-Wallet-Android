@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/magic"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="#FFf3f3f3"
+		>
+
+	    <LinearLayout 
+	    android:layout_width="61dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="#FFf3f3f3" 
+		/>
+	        
+	    <!-- divider -->    
+    	<LinearLayout 
+        android:id="@+id/divider1"
+	    android:layout_width="5dp"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" 
+	    android:background="#FF00FFFF"
+		/>
+	        
+        <ListView
+    		android:id="@+id/magicList"
+    		android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+        	android:listSelector="#FF0000FF"
+        	android:divider="#FF656565"
+        	android:dividerHeight="1px"
+        	android:background="#FFefefef"
+			android:choiceMode="singleChoice" 
+			/>
+	    
+</LinearLayout>

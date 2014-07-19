@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blockchain</string>
+    <string name="menu_account_settings">Account Settings</string>
+    <string name="menu_scan_private_key">Scan Private Key</string>
+    <string name="menu_addresses_generate_new">Generate New Address</string>
+    <string name="menu_addresses_scan_watch_only">Scan Watch Only Address</string>
+    <string name="menu_addresses_paste">Paste Sending Address</string>
+    <string name="menu_addresses_scan_address">Scan Sending Address</string>
+    <string name="menu_leave_p2p_mode">Leave P2P Mode</string>
+    <string name="running_in_p2p_mode">Running in P2P Mode</string>
+    <string name="export_keys_dialog_button_archive">Archive</string>
+    <string name="wallet_options_backup">Backup Wallet</string>
+    <string name="import_export_keys_dialog_failure_title">Error</string>
+    <string name="export_keys_dialog_mail_subject">Bitcoin Wallet private key backup</string>
+    <string name="export_keys_dialog_mail_text">The attached encrypted file contains Bitcoin private keys and should be kept safe at all times. Don\'t forget the encryption password!</string>
+    <string name="toast_wallet_reset">Wallet was reset,\nwill take some time to recover</string>
+    <string name="export_keys_dialog_mail_intent_chooser">Archive keys using…</string>
+    <string name="toast_wallet_download_failed">Failed to download wallet from server. Please check
+		your internet connection.</string>
+    <string name="toast_wallet_decryption_failed">Failed to decrypt wallet. Your password may be
+		incorrect.</string>
+    <string name="toast_wallet_decrypt_failed">Error decrypting wallet. Please check your
+		password.</string>
+    <string name="toast_generated_new_wallet">Generated new wallet.</string>
+    <string name="toast_new_address_generated">New Address Generated</string>    
+    <string name="toast_generated_address">Generated Address %s.</string>
+    <string name="toast_pin_saved">PIN Saved.</string>
+    <string name="export_keys_dialog_title">Backup Wallet</string>
+    <string name="export_keys_dialog_message">Your encrypted wallet will be written to external storage. In case of emergency the wallet can be restored online at blockchain.info or using the multibit.org bitcoin client.</string>
+    <string name="export_keys_dialog_button_export">Export</string>
+    <string name="import_export_keys_dialog_password">password</string>
+    <string name="import_export_keys_dialog_show">Show password</string>
+    <string name="import_text">Import</string>
+    <string name="sweep_text">Sweep</string>
+    <string name="export_keys_dialog_success">Your wallet has been saved to\n\n%s\n\nKeep it safe, and keep your password safe!\n\nDo you want to archive your wallet using an app?</string>
+    <string name="export_keys_dialog_failure">Your private keys could not be exported:\n%s</string>
+    <string name="toast_downloading_wallet">Downloading wallet.</string>
+    <string name="toast_error_syncing_wallet">Error syncing wallet. Please check your internet
+		connection.</string>
+    <string name="toast_error_downloading_captcha">Error downloading captcha.</string>
+    <string name="error_pairing_wallet">Error pairing wallet.</string>
+    <string name="wallet_options_bug">Bug Report</string>
+    <string name="wrong_private_key">Private Key does not match bitcoin address. You scanned %s</string>
+    <string name="second_password_text">This action requires a second password in order to
+		fully decrypt your bitcoin wallet. Please enter your second password
+		below.</string>
+    <string name="main_password_text">Please enter your main password below.</string>
+    <string name="private_key_password_text">Encrypted private key detected. Please enter the password below.</string>
+    <string name="wallet_identifier_title">Wallet Identifier</string>
+    <string name="wallet_identifier_enter_text">Please enter your 36 character wallet identifier below including dashes. Two factor authentication must be temporarily disabled.</string>
+    <string name="new_account_password_length_error">Password must be between 11 and 255 characters</string>
+    <string name="new_account_password_mismatch_error">Passwords do not match</string>
+    <string name="new_account_password_invalid_email">Invalid Email Address</string>
+    <string name="new_account_kaptcha_error">Captcha code incorrect</string>
+    <string name="new_account_no_kaptcha_error">You must enter a captcha code</string>
+    <string name="new_account_success">New account successfully created</string>
+    <string name="dialog_continue">Continue</string>
+    <string name="second_password_title">Second Password</string>
+    <string name="main_password_title">Main Password</string>
+    <string name="private_key_password_title">Private Key Password</string>
+    <string name="password_incorrect">Incorrect Password</string>
+    <string name="generate_key_no_password_error">Cannot generate key without a second password</string>
+    <string name="send_no_password_error">Cannot send transaction without a second password</string>
+    <string name="ask_for_fee">This transaction is low priority it is recommended you include a miners fee. Would you like to add this fee now?</string>
+    <string name="ask_for_private_key">This transaction requires the private key for Bitcoin address %s. Would you like to scan it from a paper wallet?</string>
+    <string name="continue_without_fee">Continue Without Fee</string>
+    <string name="add_fee">Add Fee</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="ask_you_sure_unpair">Are you sure you want to unpair your device?</string>
+    <string name="ask_you_sure_exit">Are you sure you want to exit Blockchain Wallet?</string>
+    <string name="error_setting_label">Error setting address label</string>
+    <string name="new_account_title">New account</string>
+    <string name="password">Password:</string>
+    <string name="password_confirm">Confirm Password:</string>
+    <string name="captcha">Captcha:</string>
+    <string name="email">Email:</string>
+    <string name="optional">Optional</string>
+    <string name="captcha_code">Please type the captcha code</string>
+    <string name="create_account">Create Account</string>
+    <string name="creating_account">Creating new account. Please Wait</string>
+    <string name="blockchain_state_disclaimer">Use at your own risk. Read the safety notes.</string>
+    <string name="blockchain_state_message_hours">Blockchain %1$s, %2$d hours behind</string>
+    <string name="blockchain_state_message_days">Blockchain %1$s, %2$d days behind</string>
+    <string name="blockchain_state_message_weeks">Blockchain %1$s, %2$d weeks behind</string>
+    <string name="blockchain_state_message_downloading">downloading</string>
+    <string name="blockchain_state_message_stalled">stalled</string>
+    <string name="blockchain_state_message_problem_storage">Blockchain not downloading: Storage problem</string>
+    <string name="blockchain_state_message_problem_power">Blockchain not downloading: Power problem</string>
+    <string name="blockchain_state_message_problem_network">Blockchain not downloading: Network problem</string>
+    <string name="wallet_address_fragment_your">Your Bitcoin Address:</string>
+    <string name="wallet_address_fragment_clipboard_msg">Bitcoin address copied to clipboard</string>
+    <string name="wallet_address_fragment_share_dialog_title">Share your bitcoin address…</string>
+
+    <string-array name="wallet_address_fragment_context">
+        <item>List all</item>
+        <item>Show QR code</item>
+        <item>Copy to clipboard</item>
+        <item>Share</item>
+    </string-array>
+
+    <string name="wallet_addresses_fragment_unlabeled">(unlabeled)</string>
+    <string name="wallet_addresses_fragment_add_dialog_positive">Add address</string>
+    <string name="wallet_balance_fragment_local_value">worth about %1$s %2$s</string>
+    <string name="exchange_rates_fragment_empty_text">Could not load exchange rates</string>
+    <string name="exchange_rates_activity_title">Exchange Rates</string>
+    <string name="wallet_transactions_fragment_tab_received">Received</string>
+    <string name="wallet_transactions_fragment_tab_all">Both</string>
+    <string name="wallet_transactions_fragment_tab_sent">Sent</string>
+    <string name="wallet_transactions_fragment_empty_text_received">No Bitcoins received so far</string>
+    <string name="wallet_transactions_fragment_empty_text_sent">No Bitcoins sent so far</string>
+    <string name="wallet_transactions_context_edit_address_title">Add/edit address</string>
+    <string name="wallet_transactions_context_show_transaction_title">Transaction details</string>
+    <string name="wallet_options_request_coins">Request coins</string>
+    <string name="wallet_options_send_coins">Send coins</string>
+    <string name="wallet_options_about">About</string>
+    <string name="wallet_options_safety">Safety notes</string>
+    <string name="wallet_options_donate">Tip / Donate</string>
+    <string name="wallet_options_help">Help</string>
+    <string name="wallet_low_storage_dialog_title">Internal Device Storage Space Low!</string>
+    <string name="wallet_low_storage_dialog_msg">Bitcoin Wallet uses internal storage for
+		remembering transactions and blocks. If it runs out of
+		space, it will
+		stop working and your Bitcoins are at risk!\n\nDo you want to open the
+		Application Manager in order to
+		uninstall unneeded apps?</string>
+    <string name="wallet_low_storage_dialog_button_apps">Manage Apps</string>
+    <string name="wallet_timeskew_dialog_title">Check your time settings!</string>
+    <string name="wallet_timeskew_dialog_msg">Your device time is off by %d minutes. You probably
+		cannot send or receive Bitcoins due to this
+		problem.\n\nYou should
+		check and correct your time and timezone settings.</string>
+    <string name="wallet_timeskew_dialog_button_settings">Settings</string>
+    <string name="send_coins_activity_title">Send Bitcoins</string>
+    <string name="send_coins_install_qr_scanner_msg">Please install ZXing QR-code scanner or Goggles!</string>
+    <string name="send_coins_uri_parse_error_title">Invalid Bitcoin URI</string>
+    <string name="send_coins_parse_address_error_msg">Got invalid bitcoin address!\n(Mixing up
+		Testnet/Prodnet?)</string>
+    <string name="send_coins_fragment_receiving_address_label">Pay to</string>
+    <string name="send_coins_fragment_from_address_label">From address</string>
+    <string name="send_coins_fragment_receiving_address_hint">bitcoin address </string>
+    <string name="send_coins_fragment_receiving_address_error">Invalid Bitcoin Address!</string>
+    <string name="send_coins_fragment_available_label">Available for spending</string>
+    <string name="send_coins_fragment_pending">(BTC %s waiting for confirmation)</string>
+    <string name="send_coins_fragment_amount_label">Amount to pay</string>
+    <string name="send_coins_fragment_fee_label">Fee (optional)</string>
+    <string name="send_coins_fragment_button_send">Send</string>
+    <string name="send_coins_fragment_button_back">Back</string>
+    <string name="send_coins_sending_msg">Sending…</string>
+    <string name="send_coins_sent_msg">Sent!</string>
+    <string name="send_coins_add_address_dialog_title">The recipient is not yet contained in your address
+		book.\n\nDo you want to add the address?</string>
+    <string name="send_coins_add_address_dialog_button_add">Add address</string>
+    <string name="send_coins_error_msg">Problem sending coins!</string>
+    <string name="send_coins_success_msg">BTC %s sent!</string>
+    <string name="request_coins_activity_title">Request Bitcoins</string>
+    <string name="request_coins_fragment_amount_label">Requested amount (optional)</string>
+    <string name="request_coins_fragment_qr_label">Have this QR-code scanned by the sender:</string>
+    <string name="request_coins_fragment_nfc_enabled">Or touch with NFC enabled device.</string>
+    <string name="request_coins_clipboard_msg">Bitcoin request copied to clipboard</string>
+    <string name="request_coins_share_dialog_title">Share request for Bitcoins…</string>
+    <string name="request_coins_address_copied_to_clipboard">Bitcoin address copied to Clipboard</string>
+    <string name="request_coins_address_label">(Touch to copy to Clipboard)</string>
+    <string name="generate_shared_address">Generate Shared Address</string>
+    <string name="address_book_activity_title">Address Book</string>
+    <string name="address_book_list_receiving_title">Active addresses</string>
+    <string name="address_book_list_archived_title">Archived addresses</string>
+    <string name="address_book_list_sending_title">Sending addresses</string>
+    <string name="address_book_empty_text">No entries in address book</string>
+    <string name="address_book_context_send_title">Send Bitcoins to address</string>
+    <string name="address_book_context_edit_title">Edit Label</string>
+    <string name="address_book_context_archive">Archive</string>
+    <string name="address_book_context_make_active">Unarchive</string>
+    <string name="address_book_context_remove_title">Remove address</string>
+    <string name="address_book_context_show_qr_title">Show QR code</string>
+    <string name="address_book_context_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="address_book_context_default_title">Set as default address</string>
+    <string name="address_book_context_determine_creation_time_title">Determine creation time</string>
+    <string name="address_book_msg_clipboard_empty">Clipboard is empty</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="welcome_text_no_account">If you already have a My wallet account press the
+		pair device button to login. Otherwise please create a new account.
+		It\'s Free!</string>
+    <string name="welcome_text_has_account">You already have a My Wallet account paired with
+		your device. If you would like to use a different account press the
+		pair device button to login.</string>
+    <string name="should_not_be_here">You should not be here. This is a bug</string>
+    <string name="pair_wallet_title">Pair Wallet.</string>
+    <string name="pair_wallet_button">Scan QR Code.</string>
+    <string name="pair_wallet_manually_button">Pair Manually.</string>
+    <string name="pair_wallet_step1">Step 1.</string>
+    <string name="pair_wallet_step1_content">Login to your My Wallet account using your web browser
+	    .</string>
+    <string name="pair_wallet_step2">Step 2.</string>
+    <string name="pair_wallet_step2_content">Click on the [Account Settings] button then choose
+		the [Devices] tab.</string>
+    <string name="pair_wallet_step3">Step 3.</string>
+    <string name="pair_wallet_step3_content">You will see a QR Code, click the button below to
+		scan this QR Code with your camera.</string>
+    <string name="welcome_pair_device_button">Pair Device</string>
+    <string name="welcome_new_account_button">New Account</string>
+    <string name="edit_address_book_entry_dialog_title_add">Add Address Label</string>
+    <string name="edit_address_book_entry_dialog_title_edit">Edit Address Label</string>
+    <string name="edit_address_book_entry_dialog_address_label">Address</string>
+    <string name="edit_address_book_entry_dialog_label_label">Name</string>
+    <string name="edit_address_book_entry_dialog_button_add">Add</string>
+    <string name="edit_address_book_entry_dialog_button_edit">Save</string>
+    <string name="edit_address_book_entry_dialog_button_delete">Delete</string>
+    <string name="transaction_activity_title">Transaction</string>
+    <string name="transaction_summary_title">Transaction Summary</string>
+    <string name="transaction_fragment_time_label">Sent Time</string>
+    <string name="transaction_fragment_confirmations_label">Confirmations</string>
+    <string name="transaction_fragment_fee_label">Fee</string>
+    <string name="transaction_fragment_value_label">Value</string>
+    <string name="value_now_ten">Now %1$s \nThen %2$s</string>
+    <string name="transaction_fragment_time_today">today</string>
+    <string name="transaction_fragment_to">To</string>
+    <string name="transaction_fragment_from">From</string>
+    <string name="transaction_fragment_amount_you_sent">You Sent %s BTC</string>
+    <string name="transaction_fragment_amount_you_received">You Received %s BTC</string>
+    <string name="transaction_fragment_amount_you_moved">You Moved %s BTC</string>
+    <string name="transaction_fragment_from_label">Sender</string>
+    <string name="transaction_fragment_to_label">Receiver</string>
+    <string name="transaction_fragment_you">you</string>
+    <string name="transaction_fragment_status_label">Status</string>
+    <string name="transaction_fragment_status_unknown">unknown</string>
+    <string name="transaction_fragment_status_pending">waiting for confirmation</string>
+    <string name="transaction_fragment_status_confirmed">confirmed</string>
+    <string name="transaction_fragment_status_dead">dead</string>
+    <string name="transaction_fragment_hash_label">Hash</string>
+    <string name="transaction_fragment_length_label">Length</string>
+    <string name="amount_calculator_dialog_title">Currency calculator</string>
+    <string name="amount_calculator_dialog_button_use">Use</string>
+    <string name="preferences_about_title">About</string>
+    <string name="preferences_license_title">License</string>
+    <string name="preferences_credits_bitcoinj_title">"This app is using 'bitcoinj'"</string>
+    <string name="preferences_credits_zxing_title">"This app is using 'zxing'"</string>
+    <string name="about_credits_bitcoin_wallet_android">"This app is using 'Bitcoin Wallet For android'"</string>
+    <string name="preferences_credits_icon_title">"This app is using an icon by 'bitboy'"</string>
+    <string name="preferences_author_twitter_title">Author at Twitter</string>
+    <string name="preferences_author_googleplus_title">Author at Google+</string>
+    <string name="preferences_credits_market_app_title">Android Market App Page</string>
+    <string name="preferences_credits_market_publisher_title">Other Apps of Author</string>
+    <string name="notification_coins_received_msg">Received %s BTC</string>
+    <string name="notification_coins_sent_msg">Sent %s BTC</string>
+    <string name="notification_peers_connected_msg">%d peers connected</string>
+    <string name="button_dismiss">Dismiss</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered (regId = %1$s)!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    <string name="buy_bitcoins">Buy Bitcoins</string>
+    <string name="unknown">Unknown</string>
+    <string name="add_note">Add Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="save_note">Save Note</string>
+    <string name="please_enter_note">Please enter a note</string>
+    <string name="note_saved">Note Saved</string>
+    <string name="enter_note_below">Enter the note below:</string>
+    <string name="shared_send_description">Send shared routes transactions through a shared wallet for increased privacy. Shared transactions incur a %1$s fee.</string>
+    <string name="this_is_you_bitcoin_address">This Is Your Bitcoin Address</string>
+    <string name="shared_with_anyone">Share this with anyone and they can send you payments.</string>
+    <string name="pin_server_error">PIN Server Error.</string>
+    <string name="pin_server_error_description">There was an error validating the PIN code with the server. This may be because you are not connected to the internet or blockchain.info is currently down. How would you like to proceed?</string>
+    <string name="try_again">Try Again.</string>
+    <string name="pin_server_error_enter_password_manually">Enter Password.</string>
+    <string name="network_error">Network Error.</string>
+    <string name="network_error_description">A network error occurred syncing your bitcoin wallet. Please check your internet connection.</string>
+    <string name="blockchain_network_error">Server Error.</string>
+    <string name="blockchain_network_error_description">An error occurred connecting to blockchain.info. The website may be offline or experiencing technical difficulties. \n\n Would you like to fallback to the P2P network? A significant delay will be incurred synchronizing with the bitcoin network.</string>
+    <string name="start_p2p_mode">Start P2P Mode.</string>
+    <string name="menu_enter_p2p_mode">Enter P2P Mode</string>
+    <string name="start_p2p_mode_description">When P2P Mode is enabled the app will disconnect from blockchain.info and instead connect to the bitcoin network. A significant delay will be incurred synchronizing with the bitcoin network.</string>
+    <string name="ignore">Ignore.</string>
+    <string name="blockchain_state_progress_hours">%1$s, %2$d hours behind</string>
+    <string name="blockchain_state_progress_days">%1$s, %2$d days behind</string>
+    <string name="blockchain_state_progress_weeks">%1$s, %2$d weeks behind</string>
+    <string name="blockchain_state_progress_months">%1$s, %2$d months behind</string>
+    <string name="blockchain_state_progress_downloading">Synchronizing with network</string>
+    <string name="blockchain_state_progress_stalled">Synchronization stalled</string>
+    <string name="blockchain_state_progress_problem_storage">Synchronizing: Storage problem</string>
+    <string name="blockchain_state_progress_problem_network">Synchronizing: Network problem</string>
+    <string name="blockchain_state_replaying">Blockchain replay is in progress.</string>
+    <string name="blockchain_not_upto_date">The blockchain is not up to date.</string>
+    <string name="only_quick_supported">Only Quick Send is supported in P2P mode.</string>
+    <string name="no_transactions">No Transactions</string>
+    <string name="unknown_error">Unknown Error</string>
+    <string name="watch_only">(Watch Only)</string>
+    <string name="rng_announcement_description">A vulnerability has been found in the random number generator used in previous versions of the Blockchain android app. \n\n It is highly recommended that all coins be moved to new bitcoin addresses. This can be done automatically but will invalidate any existing wallet backups. Would you like to begin this process now?</string>
+    <string name="security_announcement">Important Security Announcement</string>
+    <string name="error_rekeying_wallet">An Error Occurred During the Re-keying process</string>
+    <string name="success_rekeying_wallet">Your wallet was successfully Re-keyed. Please make a new backup.</string>
+    <string name="rekeying_wallet_balance_too_small">Your wallet balance is too low to sweep.</string>
+
+    <string name="request_payment_hint">Receive Into...</string>
+    <string name="send_payment_hint">Send To...</string>
+    <string name="copied_address_to_clipboard">Copied Address to Clipboard</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="add_to_address_book">Add to address book</string>
+    <string name="set_label_below">Set Label Below:</string>
+    <string name="added_to_address_book">Added to address book</string>
+    <string name="address_already_exist">Address already exist</string>
+    
+    
+    <string-array name="send_types_array">
+        <item>Quick Send</item>
+        <item>Custom Send</item>
+        <item>Shared Send</item>
+    </string-array>
+    
+    <string name="action_settings">Account settings</string>
+    <string name="address_book">Address book</string>
+    <string name="exchange_rates">Exchange rates</string>
+    <string name="scan_private_key">Scan private key</string>
+    <string name="scan_watch_only">Scan watch only address</string>
+    <string name="backup_wallet">Backup wallet</string>
+    <string name="p2p_mode">Enter P2P mode</string>
+    <string name="nearby_merchants">Merchant Map</string>
+    <string name="send_to_friends">Send Bitcoins to friends</string>
+    <string name="scan_contacts_address">Scan Contacts address</string>
+    
+    <string name="new_address">Generate new address</string>
+    <string name="edit_label">Edit label</string>
+    <string name="archive_address">Archive address</string>
+    <string name="unarchive_address">Unarchive address</string>
+    <string name="remove_address">Remove address</string>
+    <string name="qr_code">Show QR code</string>
+    <string name="default_address">Make default address</string>
+    
+    <string name="support">Support</string>
+    <string name="rate_us">Rate us</string>
+    <string name="email_chooser">Send e-mail...</string>
+    <string name="about_us">About Blockchain Wallet</string>
+    <string name="about">Blockchain Wallet %1$s\n©%2$s Blockchain.info</string>
+    <string name="merchant_download">Free Merchant app</string>
+    <string name="feedback">Send Feedback</string>
+    
+    <string name="BTC">BTC</string>
+    <string name="scan_button">scan button</string>
+    <string name="refresh_button">refresh button</string>
+    <string name="merchant_directory_button">merchant directory button</string>
+    <string name="app_icon">app icon</string>
+    
+    <string name="change_password_title">Change Password</string>
+    <string name="enter_your_current_password">Enter your current password:</string>
+    <string name="enter_your_new_password">Enter your new password:</string>
+    <string name="confirm_password_hint">confirm password</string>
+    <string name="password_changed">Password changed</string>
+    <string name="password_change_error">Password change error</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="old_password">Old password</string>
+    <string name="enter">Enter</string>
+    
+    <string name="change_pin_title">Change PIN</string>
+    <string name="enter_your_new_pin">Enter your new PIN:</string>
+    <string name="pin_hint">PIN</string>
+    <string name="confirm_pin_hint">confirm PIN</string>
+    <string name="invalid_pin_error">PIN must be 4 numberic numbers</string>
+    <string name="pin_mismatch_error">PINs do not match</string>
+    <string name="change_pin_success">Change pin success</string>
+    <string name="incorrect_pin">Incorrect PIN</string>
+    <string name="old_pin">Old PIN</string>
+    <string name="enter_your_current_pin">Enter your current PIN:</string>
+    
+    <string name="passphrase_required">Passphrase required</string>
+    <string name="enter_bip38_passphrase">Enter BIP38 passphrase:</string>
+    <string name="password_hint">Password</string>
+    
+	<string name="wallet_sync_error">Wallet sync error</string>
+	<string name="success_contact_added">Success Contact added</string>
+	<string name="invalid_bitcoin_address">Invalid bitcoin address</string>
+	<string name="scanned_watch_only_address">Scanned watch only address</string>
+	<string name="error_scanning_address">Error scanning address</string>
+	<string name="scanned_private_key">Scanned private key</string>
+	<string name="error_scanning_private_key">Error scanning private key</string>
+			
+</resources>
